@@ -27,6 +27,14 @@
 
 }
 
+#colorPicker .nocolor{
+    width:80px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:10px;
+    background: url(images/no-color.png) no-repeat 0% 50%;
+}
+
 #colorPicker .color {
     width:          25px;
     height:         25px;

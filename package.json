@@ -8,6 +8,10 @@
     "type": "git",
     "url": "https://github.com/wieringen/tinycolorpicker.git"
   },
+  "scripts": {
+     "lite": "lite-server --port 10001",
+     "start": "npm run lite"
+   },
   "keywords": [
     "UI",
     "jQuery",
@@ -62,6 +66,7 @@
     "karma-script-launcher": "~0.1.0",
     "mocha": "~1.15.1",
     "sinon": "~1.7.3",
-    "sinon-chai": "~2.4.0"
+    "sinon-chai": "~2.4.0",
+    "lite-server": "^1.3.1"
   }
 }
